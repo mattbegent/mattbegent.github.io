@@ -1,0 +1,201 @@
+/**
+ * styles.css
+ * This file is minified and put inline for performance
+ */
+
+/**
+ * Base
+ */
+
+html {
+    box-sizing: border-box;
+}
+
+*, 
+*:before, 
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    color: #222;
+    font-family: 'Raleway',sans-serif;
+}
+
+/**
+ * Grid
+ */
+
+.l-grid {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/**
+ * Header
+ */
+
+.c-header {
+    padding: 3rem 0;
+    background-color: #b42020;
+    color: #FFF;
+}
+
+    .c-header__title {
+        text-align: center;
+        margin: 0;
+    }
+
+    .c-header__title--primary {
+        font-weight: 700;
+        font-size: 2.75rem;
+        margin: 0 0 0.25rem 0;
+    }
+
+    .c-header__title--secondary {
+        font-weight: 300;
+        font-size: 1rem;
+    }
+
+    @media(min-width: 42em) {
+        .c-header__title--primary {
+            font-size: 3.5rem;
+        }
+        .c-header__title--secondary {
+            font-size: 1.25rem;
+        }
+    }
+
+/**
+ * Section
+ */
+
+.c-section {
+    padding: 1rem 0
+}
+
+    .c-section--light {
+        background-color: #FFF;
+    }
+
+    .c-section--dark {
+        background-color: #e5e7e6;
+    }
+
+    .c-section__title {
+        font-size: 2.5rem;
+        border-bottom: 1px solid #dfdfdf;
+        margin: 0;
+    }
+
+        .c-section__title-note {
+            font-size: 1rem;
+        }
+
+    .c-section__content {
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+    }
+
+    .c-section__content a {
+        color: #b42020;
+        text-decoration: underline;
+        transition: color 300ms;
+    }
+
+    .c-section__content a:hover,
+    .c-section__content a:focus {
+        color: #7a1616;
+    }
+
+    @media(min-width: 42em) {
+        .c-section {
+            padding: 2rem 0
+        }
+        .c-section__title {
+            font-size: 3rem;
+        }
+    }
+
+/**
+ * Projects
+ */
+
+.c-projects {
+    margin: 0;
+    padding: 1rem 0;
+    list-style: none;
+}
+
+    .c-projects__item {
+        display: block;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .c-projects__image {
+        display: block;
+        width: 100%;
+    }
+
+    .c-projects__link {
+        display: block;
+        transition: filter 300ms;
+    }
+
+    .c-projects__link:hover,
+    .c-projects__link:focus {
+        filter: brightness(1.2);
+    }
+
+    @media(min-width: 32em) {
+        .c-projects {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .c-projects__item {
+            position: relative;
+            width: 50%;
+            overflow: hidden;
+        }
+    }
+
+    @media(min-width: 50em) {
+        .c-projects__item {
+            width: 33.33%
+        }
+    }
+
+/**
+ * Footer
+ */
+
+.c-footer {
+    background-color: #444;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+    .c-footer__copyright {
+        font-size: 1rem;
+    }
+
+
+/**
+ * Utils
+ */
+
+.u-visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+}
