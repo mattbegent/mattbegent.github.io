@@ -28,7 +28,7 @@ body {
  */
 
 .l-grid {
-    max-width: 1080px;
+    max-width: 720px;
     margin: 0 auto;
     padding: 0 1rem;
 }
@@ -96,7 +96,7 @@ body {
 
     .c-section__content {
         font-size: 1.25rem;
-        line-height: 1.5rem;
+        line-height: 1.5;
     }
 
     .c-section__content a {
@@ -138,6 +138,7 @@ body {
     .c-projects__image {
         display: block;
         width: 100%;
+        height: auto;
     }
 
     .c-projects__link {
