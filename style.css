@@ -166,7 +166,7 @@ body {
 
     @media(min-width: 50em) {
         .c-projects__item {
-            width: 33.33%
+            width: 50%
         }
     }
 
