@@ -19,6 +19,17 @@
     
     <style>
         html{box-sizing:border-box}*,:after,:before{box-sizing:inherit}body{margin:0;color:#222;font-family:'Raleway',sans-serif}.l-grid{max-width:720px;margin:0 auto;padding:0 1rem}.c-header{padding:3rem 0;background-color:#b42020;color:#fff}.c-header__title{text-align:center;margin:0}.c-header__title--primary{font-weight:700;font-size:2.75rem;margin:0 0 .25rem 0}.c-header__title--secondary{font-weight:300;font-size:1rem}@media(min-width:42em){.c-header__title--primary{font-size:3.5rem}.c-header__title--secondary{font-size:1.25rem}}.c-section{padding:1rem 0}.c-section--light{background-color:#fff}.c-section--dark{background-color:#e5e7e6}.c-section__title{font-size:2.5rem;border-bottom:1px solid #dfdfdf;margin:0}.c-section__title-note{font-size:1rem}.c-section__content{font-size:1.25rem;line-height:1.5}.c-section__content a{color:#b42020;text-decoration:underline;transition:color .3s}.c-section__content a:focus,.c-section__content a:hover{color:#7a1616}@media(min-width:42em){.c-section{padding:2rem 0}.c-section__title{font-size:3rem}}.c-projects{margin:0;padding:1rem 0;list-style:none}.c-projects__item{display:block;padding:0;margin:0 auto}.c-projects__image{display:block;width:100%;height:auto}.c-projects__link{display:block;transition:filter .3s}.c-projects__link:focus,.c-projects__link:hover{filter:brightness(1.2)}@media(min-width:32em){.c-projects{display:flex;flex-wrap:wrap}.c-projects__item{position:relative;width:50%;overflow:hidden}}@media(min-width:50em){.c-projects__item{width:50%}}.c-footer{background-color:#444;color:#fff;padding:1rem 0}.c-footer__copyright{font-size:1rem}.u-visually-hidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;white-space:nowrap}
+        .c-video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+        }
+        .c-video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
     </style>
 
 </head>
@@ -40,10 +51,10 @@
 
             <div class="l-grid">
 
-                <h2 class="c-section__title">about</h2>
+                <h2 class="c-section__title">About</h2>
 
                 <div class="c-section__content">
-                    <p>Hi, my name is Matt Begent and I'm a senior front-end web developer working in Bristol (UK) who loves designing and coding cool, accessible and unique websites. In my day job I work on websites for large brands such as <strong>Dyson</strong>, <strong>Sky</strong>, <strong>Honda</strong>, <strong>Wolves</strong>, <strong>Spurs</strong>, <strong>Sainbury's</strong>, <strong>RAC</strong>, <strong>Babcock</strong>, <strong>PHS</strong>, <strong>Picturehouse Cinemas</strong> and <strong>ourscreen</strong>, using technologies such as HTML, CSS, Git, React, Angular, TypeScript and JavaScript.</p>
+                    <p>Hi, my name is Matt Begent and I'm a senior front-end web developer working in Bristol (UK) who loves designing and coding cool, accessible and unique websites. In my day job I work on websites for large brands such as <strong>Dyson</strong>, <strong>Sky</strong>, <strong>Honda</strong>, <strong>Wolves</strong>, <strong>Spurs</strong>, <strong>Sainbury's</strong>, <strong>RAC</strong>, <strong>Babcock</strong>, <strong>PHS</strong>, and <strong>Picturehouse Cinemas</strong>, using technologies such as HTML, CSS, Git, React, Angular, TypeScript and JavaScript.</p>
                     <p>You can read my <a href="https://codeboosh.com/" target="_blank" rel="noopener">coding blog Codeboosh</a> and view some of my <a href="https://github.com/mattbegent/" rel="noopener" target="_blank">open source projects on github</a>.</p>
                 </div>
             </div>
@@ -54,7 +65,33 @@
 
             <div class="l-grid">
 
-                <h2 class="c-section__title">skills</h2>
+                <h2 class="c-section__title">Accessibility Reporter</h2>
+
+                <div class="c-section__content">
+                    <h3>About Accessibility Reporter</h3>
+                    <p>Accessibility Reporter is an open source project that I created for accessibility testing in Umbraco. It tests your content pages against the Web Content Accessibility Guidelines (WCAG), highlights issues and helps you to make your website more accessible.</p>   
+                    <h3>umbraCoffee</h3>
+                    <p>I recently appeared as a guest on the Umbraco podcast umbraCoffee where I demonstrated my Umbraco package Accessibility Reporter.</p>
+                    <div class="c-video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/0A8igQ1zCY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <p><a href="https://www.youtube.com/watch?v=0A8igQ1zCY0">View umbraCoffee appearance on YouTube</a></p>
+                    <h3>Useful links</h3>
+                    <p><a href="https://umbraco.accessibilityreporter.com/">Accessibility Reporter for Umbraco website</a></p>
+                    <p><a href="https://github.com/mattbegent/umbraco-accessibility-reporter">View the code for the project on Github</a></p>
+                    <p><a href="https://marketplace.umbraco.com/package/umbraco.community.accessibilityreporter">Install Accessibility Reporter from the Umbraco Marketplace</a></p>
+                    <h3>Umbraad 2023</h3>
+                    <p>At Umbraad 2023 I am giving a talk called "Automated Accessibility Testing Within Umbraco", in which I will do a live demonstration of Accessibility Reporter.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="c-section c-section--light">
+
+            <div class="l-grid">
+
+                <h2 class="c-section__title">Skills</h2>
 
                 <div class="c-section__content">
 
@@ -74,7 +111,7 @@
 
                     <h3>Umbraco</h3>
 
-                    <p>I am an Umbraco certified professional and I work on the front-end of Umbraco websites for small and large clients. I have appeared on an episode umbraCoffee, where <a href="https://www.youtube.com/watch?v=0A8igQ1zCY0">I talked about my Accessibility Reporter content app</a>. </p>
+                    <p>I am an Umbraco certified professional and I work on the front-end of Umbraco websites for small and large clients. I have appeared on an episode umbraCoffee and am giving a talk at Umbraad 2023.</p>
 
                     <h3>Node.js</h3>
 
@@ -90,7 +127,7 @@
 
         </section>
 
-        <section class="c-section c-section--light">
+        <!-- <section class="c-section c-section--light">
 
             <div class="l-grid">
 
@@ -125,7 +162,7 @@
 
             </div>
 
-        </section>
+        </section> -->
 
     </main>
 
